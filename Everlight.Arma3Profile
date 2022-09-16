@@ -540,7 +540,7 @@ browsingSource="History";
 class Filter
 {
 	serverName="";
-	missionType="mikefrc";
+	missionType="";
 	missionName="";
 	maxPing=0;
 	minPlayers=0;
@@ -551,7 +551,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Blind Faith";
+lastMPMission="Breaking Dawn";
 battleyeLicense=1;
 activeKeys[]=
 {
@@ -590,7 +590,12 @@ activeKeys[]=
 	"BIS___cur_mp.ruha_done",
 	"BIS___cur_mp.hellanmaa_done",
 	"BIS___cur_mp.fallujah_done",
-	"BIS___cur_mp.porto_done"
+	"BIS___cur_mp.porto_done",
+	"BIS___cur_mp.Woodland_ACR_done",
+	"BIS___cur_mp.sara_done",
+	"BIS___cur_mp.zargabad_done",
+	"BIS___cur_mp.juju_kalahari_done",
+	"BIS___cur_mp.bozcaada_done"
 };
 lastSPMission="Hell-Heli : Altis Autorotation Practice";
 lastCampaignMission="LZ Nowhere";
@@ -617,22 +622,22 @@ class JoysticksList
 		analogClickLow=0.2;
 	};
 };
-mouseSensitivityX=0.55634218;
-mouseSensitivityY=0.55634218;
 headBob=0.23634396;
 floatingZoneArea=0;
+mouseSensitivityX=0.55634218;
+mouseSensitivityY=0.55634218;
 sceneComplexity=1800000;
-shadowZDistance=100;
-viewDistance=3800;
-preferredObjectViewDistance=2300;
-pipViewDistance=500;
+shadowZDistance=50;
+viewDistance=4091.998;
+preferredObjectViewDistance=2228.2632;
+pipViewDistance=2228;
 terrainGrid=3.125;
-volumeCD=5;
-volumeFX=5;
-volumeSpeech=5;
+volumeCD=3.8862762;
+volumeFX=3.8862762;
+volumeSpeech=10;
 volumeVoN=10;
 vonRecThreshold=0.029999999;
-volumeMapDucking=1;
+volumeMapDucking=0.39058578;
 gamma=1;
 ppBrightness=1;
 ppContrast=1;
