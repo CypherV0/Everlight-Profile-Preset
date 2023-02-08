@@ -65,7 +65,7 @@ class MainMap
 	{
 		inBack=1;
 		position[]={-0.10143903,-0.043752741,0.2};
-		positionBack[]={-0.097506329,-0.049234442,0.2};
+		positionBack[]={-0.10381714,-0.058338538,0.2};
 	};
 };
 customScheme=0;
@@ -119,7 +119,7 @@ keySwitchWeaponGrp4[]={5};
 keyFire[]={487653376};
 keyDefaultAction[]={65536};
 keyActionInMap[]={65536};
-keyThrow[]={34};
+keyThrow[]={};
 keyCycleThrownItems[]={487784482};
 keyReloadMagazine[]={19};
 keyLockTargets[]={15};
@@ -525,7 +525,7 @@ mouseAcceleration=0;
 difficulty="Custom";
 bootCampWarning=1;
 FavoriteServers[]={};
-currentCampaign="A3\Missions_F_Bootcamp\Campaign";
+currentCampaign="A3\Missions_F_Enoch\Campaign";
 class Identity
 {
 	face="Sturrock";
@@ -539,7 +539,7 @@ class Identity
 browsingSource="History";
 class Filter
 {
-	serverName="";
+	serverName="everlight";
 	missionType="";
 	missionName="";
 	maxPing=0;
@@ -551,7 +551,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Breaking Dawn";
+lastMPMission="Island%20Cache";
 battleyeLicense=1;
 activeKeys[]=
 {
@@ -595,7 +595,12 @@ activeKeys[]=
 	"BIS___cur_mp.sara_done",
 	"BIS___cur_mp.zargabad_done",
 	"BIS___cur_mp.juju_kalahari_done",
-	"BIS___cur_mp.bozcaada_done"
+	"BIS___cur_mp.bozcaada_done",
+	"BIS___cur_mp.uzbin_done",
+	"BIS___cur_mp.rhspkl_done",
+	"BIS___cur_mp.Chernarus_Winter_done",
+	"BIS___cur_mp.takistan_done",
+	"BIS___cur_mp.tem_suursaariv_done"
 };
 lastSPMission="Hell-Heli : Altis Autorotation Practice";
 lastCampaignMission="LZ Nowhere";
@@ -607,8 +612,6 @@ class trackIRClass
 	enabled=1;
 	ownSettings=1;
 };
-teamSwitchOffsetX=0;
-teamSwitchOffsetY=0;
 class JoysticksList
 {
 	class Joystick1
@@ -624,6 +627,12 @@ class JoysticksList
 };
 headBob=0.23634396;
 floatingZoneArea=0;
+teamSwitchOffsetX=0;
+teamSwitchOffsetY=0;
+playedKeys[]=
+{
+	"lxws_ExtractionKeyDone"
+};
 mouseSensitivityX=0.55634218;
 mouseSensitivityY=0.55634218;
 sceneComplexity=1800000;
@@ -633,7 +642,7 @@ preferredObjectViewDistance=2228.2632;
 pipViewDistance=2228;
 terrainGrid=3.125;
 volumeCD=3.8862762;
-volumeFX=3.8862762;
+volumeFX=1.9869981;
 volumeSpeech=10;
 volumeVoN=10;
 vonRecThreshold=0.029999999;
