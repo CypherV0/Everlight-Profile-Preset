@@ -65,7 +65,7 @@ class MainMap
 	{
 		inBack=1;
 		position[]={-0.10143903,-0.043752741,0.2};
-		positionBack[]={-0.10381714,-0.058338538,0.2};
+		positionBack[]={-0.10392059,-0.05833853,0.2};
 	};
 };
 customScheme=0;
@@ -161,13 +161,13 @@ keyOpticsMode[]={487653505,181};
 keyPersonView[]={156};
 keyTacticalView[]={83};
 keyZoomIn[]={78,200};
-keyZoomInToggle[]={334};
+keyZoomInToggle[]={334,197};
 keyZoomOut[]={74,208};
 keyZoomOutToggle[]={330};
 keyZoomContIn[]={524299};
 keyZoomContOut[]={524293};
-keyZeroingUp[]={201,487587845};
-keyZeroingDown[]={209,487587844};
+keyZeroingUp[]={201};
+keyZeroingDown[]={209};
 keyGunElevUp[]={201};
 keyGunElevDown[]={209};
 keyGunElevSlow[]={42,54};
@@ -524,8 +524,15 @@ mouseSmoothing=0;
 mouseAcceleration=0;
 difficulty="Custom";
 bootCampWarning=1;
-FavoriteServers[]={};
-currentCampaign="A3\Missions_F_Enoch\Campaign";
+FavoriteServers[]=
+{
+	
+	{
+		"97.92.192.239:2302",
+		2
+	}
+};
+currentCampaign="A3\Missions_F_Bootcamp\Campaign";
 class Identity
 {
 	face="Sturrock";
@@ -551,7 +558,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Island%20Cache";
+lastMPMission="CY_10_BlackIce_M2_F16";
 battleyeLicense=1;
 activeKeys[]=
 {
@@ -600,18 +607,32 @@ activeKeys[]=
 	"BIS___cur_mp.rhspkl_done",
 	"BIS___cur_mp.Chernarus_Winter_done",
 	"BIS___cur_mp.takistan_done",
-	"BIS___cur_mp.tem_suursaariv_done"
+	"BIS___cur_mp.tem_suursaariv_done",
+	"BIS___cur_mp.Maksniemi_done",
+	"BIS_Antistasi_blud_vidda.blud_vidda_establishingShot",
+	"BIS___cur_mp.Stratis_done",
+	"BIS___cur_mp.Desert_E_done",
+	"BIS___cur_mp.MCN_Aliabad_done",
+	"BIS_Antistasi_Enoch.Enoch_establishingShot",
+	"BIS___cur_mp.chernarus_summer_done",
+	"BIS___cur_mp.Farabad_done"
 };
 lastSPMission="Hell-Heli : Altis Autorotation Practice";
 lastCampaignMission="LZ Nowhere";
 currentBattle="";
 currentMission="";
 currentMPMission="vn_coop_01";
-class trackIRClass
+playedKeys[]=
 {
-	enabled=1;
-	ownSettings=1;
+	"lxws_ExtractionKeyDone"
 };
+keyA3A_core_battleMenu[]={21};
+keyA3A_core_artyMenu[]={705888278};
+keyA3A_core_infoBar[]={940769479};
+keyA3A_core_earPlugs[]={207};
+keyA3A_core_customHintDismiss[]={209};
+keyA3A_core_commanderRebelMenu[]={20};
+keyA3A_core_projectileCameraEscape[]={1};
 class JoysticksList
 {
 	class Joystick1
@@ -625,21 +646,30 @@ class JoysticksList
 		analogClickLow=0.2;
 	};
 };
-headBob=0.23634396;
-floatingZoneArea=0;
+class trackIRClass
+{
+	enabled=1;
+	ownSettings=1;
+};
+remoteIPAddress="97.92.192.239";
+remotePort=2302;
+keyPLP_LTR_ladderSlideDown[]={316};
+keysez_main_snapSelectedToCursor[]={};
+keysez_main_toggleSnapping[]={};
+keysez_main_toggleRotation[]={};
+keysez_main_toggleTerrain[]={};
+keysez_main_OpenAttributes[]={};
 teamSwitchOffsetX=0;
 teamSwitchOffsetY=0;
-playedKeys[]=
-{
-	"lxws_ExtractionKeyDone"
-};
-mouseSensitivityX=0.55634218;
-mouseSensitivityY=0.55634218;
+headBob=0.23634396;
+floatingZoneArea=0;
+mouseSensitivityX=0.70634222;
+mouseSensitivityY=0.70634222;
 sceneComplexity=1800000;
 shadowZDistance=50;
-viewDistance=4091.998;
-preferredObjectViewDistance=2228.2632;
-pipViewDistance=2228;
+viewDistance=3074.2437;
+preferredObjectViewDistance=1769.7141;
+pipViewDistance=1770;
 terrainGrid=3.125;
 volumeCD=3.8862762;
 volumeFX=1.9869981;
@@ -647,6 +677,7 @@ volumeSpeech=10;
 volumeVoN=10;
 vonRecThreshold=0.029999999;
 volumeMapDucking=0.39058578;
+volumeUI=1;
 gamma=1;
 ppBrightness=1;
 ppContrast=1;
